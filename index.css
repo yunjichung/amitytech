@@ -1,18 +1,62 @@
-html {margin-left: 300px; margin-right: 300px; margin-top: 60px; font-family: Poppins Light; min-width: 1100px;}
+html {max-width: 1100px; margin: auto; margin-top: 60px; font-family: 'Poppins', sans-serif; min-width: 1100px; max-height: 1000px;}
 .amitylogo {display: inline-block; width: 130px;}
 .portal {display: inline-block; float: right; margin-top: -4px;
-    font-family: Poppins Medium; text-decoration: none; font-size: 20px; color: #6B6B6B;}
-.maintitle {font-size: 35px; color: #6B6B6B; margin-bottom: 0px;}
+    font-family: Poppins Medium 500; text-decoration: none; font-size: 18px; color: #6B6B6B;}
+.maintitle {font-size: 35px; color: #6B6B6B; margin-bottom: 0px; font-family: Poppins Light 300;}
 .maintext {font-size: 20px; color: #6B6B6B; margin-top: 0px;}
 .productinfo {margin-top: 60px; margin-bottom: 200px;}
 .left {display: inline-block; width: 20%; margin-top: 98px;}
 .amity1 {font-size: 20px; color: #6B6B6B; margin-top: 0; margin-bottom: 30px;}
-.pinkbutton {color: #FFFFFF; background-color: #F38C8F; text-decoration: none; font-family: Poppins Medium;
+.pinkbutton {color: #FFFFFF; background-color: #F38C8F; text-decoration: none; font-family: Poppins Medium 500;
     padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px; border-radius: 30px;}
 .right {float: right; width: 80%;}
 .banner {background-color: #F38C8F; margin-left: -130px; margin-right: -130px;}
 .amity2 {font-size: 20px; color: #FFFFFF; text-align: center;
     padding-top: 55px; padding-bottom: 55px;
-    margin-left: 130px; margin-right: 130px; margin-top: 0; margin-bottom: 0;}
+    margin-left: 150px; margin-right: 150px; margin-top: 0; margin-bottom: 0;}
 .bottomtext {color: #6B6B6B; text-align: center; margin-top: 80px;}
 .features {display: block; margin-top: 75px; width: 800px; margin-left: auto; margin-right: auto;}
+.amity3 {color: #6B6B6B; display: flex; justify-content: center; margin-top: 80px; margin-bottom: 25px; font-family: Poppins Light 300;}
+.collaboration {color: #AAD8D3;}
+.connectivity {color: #FFBD9B;}
+.reflection {color: #B4AEE8;}
+
+#container {display: flex; flex-wrap: wrap; margin-bottom: 250px;}
+.individual {width: 250px; height: 250px; border-radius: 30px; margin-top: 15px; margin-right: 15px;
+    transition: height 0.5s; -webkit-transition: height 0.5s; overflow: hidden; transition: 0.1s;}
+.individual:hover {height: 515px; width: 515px;}
+.rightindividual {width: 250px; height: 250px; border-radius: 30px; margin-top: 15px; margin-right: 15px;}
+.rightindividual:hover {height: 515px; width: 515px;}
+.text {position: relative; margin-top: 95px; display: flex; justify-content: center; text-align: center; font-size: 20px; color: white; margin-bottom: -15px; font-family: Poppins Medium 500;}
+
+#AD {background-color: #AAD8D3;}
+#RTD {background-color: #AAD8D3;}
+#GC {background-color: #FFBD9B;}
+#AA {background-color: #B4AEE8;}
+#RC {background-color: #AAD8D3;}
+#UFI {background-color: #AAD8D3;}
+#DM {background-color: #FFBD9B;}
+#FS {background-color: #B4AEE8;}
+
+#ADAA {background-color: #B4AEE8; visibility: hidden;}
+#ADRC {background-color: #AAD8D3; visibility: hidden;}
+#RTDAA {background-color: #B4AEE8; visibility: hidden;}
+#RTDDM {background-color: #FFBD9B; visibility: hidden;}
+#GCAA {background-color: #B4AEE8; visibility: hidden;}
+#GCRC {background-color: #AAD8D3; visibility: hidden;}
+#AAGC {background-color: #FFBD9B; visibility: hidden;}
+#AADM {background-color: #FFBD9B; visibility: hidden;}
+#RCFS {background-color: #B4AEE8; visibility: hidden;}
+#UFIFS {background-color: #B4AEE8; visibility: hidden;}
+#DMFS {background-color: #B4AEE8; visibility: hidden;}
+#FSDM {background-color: #FFBD9B; visibility: hidden;}
+
+.hoveredtext {visibility: hidden; margin-left: 35px; margin-right: 35px; margin-top: -140px}
+.hoveredtitle {font-size: 20px; color: white; margin-bottom: -12px; font-family: Poppins Medium 500;}
+.description {color: white; line-height: 30px;}
+.featureimage {margin-top: 12px; width: 445px;}
+.greenhighlight {color: #AAD8D3; background-color: white; padding: 3px 8px 3px 8px; border-radius: 10px;}
+.orangehighlight {color: #FFBD9B; background-color: white; padding: 3px 8px 3px 8px; border-radius: 10px;}
+.purplehighlight {color: #B4AEE8; background-color: white; padding: 3px 8px 3px 8px; border-radius: 10px;}
+.replacesgreen {margin-top: 25px; color: white; background-color: #96C1BD; text-align: center; padding: 10px; border-radius: 15px;}
+.replacesorange {margin-top: 25px; color: white; background-color: #E9AB8B; text-align: center; padding: 10px; border-radius: 15px;}

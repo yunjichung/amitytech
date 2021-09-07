@@ -4,6 +4,11 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="index.css">
         <title>Amity</title>
+        <script defer src="index.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
 
     <header>
@@ -23,6 +28,88 @@
             <img class="right" src="amitydesktop.png" alt="AmityDesktop">
         </div>
         <div class="banner"><p class="amity2">Amity is designed to support teachers in improving student engagement, learning, and satisfaction, <br> no matter the class modality</p></div>
-        <img class="features" src="features.png" alt="Features">
+        <h2 class="amity3">Amity enhances&nbsp<span class="collaboration">collaboration</span>&nbsp<span class="connectivity">connectivity</span>&nbsp<span class="reflection">reflection</span></h2>
+        <div id="container">
+            <div id="AD" class="individual">
+                <h3 class="text" id="ADtitle">Asynchronous<br>Discussion</h3>
+                <div class="hoveredtext" id="hoveredAD">
+                    <h3 class="hoveredtitle">Asynchronous Discussion</h3>
+                    <p class="description">encourages transparent and shared discussions on an easily navigable space for <span class="greenhighlight">Q&A, debates, and more</span></p>
+                    <img class="featureimage" src="images/AD.png" alt="Asynchronous Discussion">
+                    <p class="replacesgreen">Replaces: LMS forums, Piazza</p>
+                </div>
+            </div>
+            <div id="RTD" class="individual">
+                <h3 class="text" id="RTDtitle">Real Time<br>Discussion</h3>
+                <div class="hoveredtext" id="hoveredRTD">
+                    <h3 class="hoveredtitle">Real Time Discussion</h3>
+                    <p class="description">enables face to face and audio collaborations with just a simple click, which <span class="greenhighlight">increases transparency of</span> <span class="greenhighlight">ongoing conversations</span> to all</p>
+                    <img class="featureimage" src="images/RTD.png" alt="Real Time Discussion">
+                    <p class="replacesgreen">Replaces: Zoom, Skype</p>
+                </div>
+            </div>
+            <div id="GC" class="individual">
+                <h3 class="text" id="GCtitle">Group<br>Chats</h3>
+                <div class="hoveredtext" id="hoveredGC">
+                    <h3 class="hoveredtitle">Group Chats</h3>
+                    <p class="description">easily allow students to <span class="orangehighlight">form, join, and collaborate</span> in group chats for projects and class related work</p>
+                    <img class="featureimage" src="images/GC.png" alt="Group Chats">
+                    <p class="replacesorange">Replaces: Email, GroupMe, WhatsApp, Canvas Messaging</p>
+                </div>
+            </div>
+            <div id="AA" class="rightindividual">
+                <h3 class="text" id="AAtitle">Actionable<br>Analytics</h3>
+                <div class="hoveredtext" id="hoveredAA">
+                    <h3 class="hoveredtitle">Actionable Analytics</h3>
+                    <p class="description">display <span class="purplehighlight">classwide engagement trends, individual</span> <span class="purplehighlight">student participation,</span> and more with our built-in analytics dashboard</p>
+                    <img class="featureimage" src="images/AA.png" alt="Actionable Analytics">
+                </div>
+            </div>
+            <div id="RC" class="individual">
+                <h3 class="text" id="RCtitle">Redundancy<br>Check</h3>
+                <div class="hoveredtext" id="hoveredRC">
+                    <h3 class="hoveredtitle">Redundancy Check</h3>
+                    <p class="description">reduces redundant questions and conversations with our algorithm, which <span class="greenhighlight">streamline similar conversations</span> to one place</p>
+                    <img class="featureimage" src="images/RC.png" alt="Redundancy Check">
+                </div>
+            </div>
+            <div id="UFI" class="individual">
+                <h3 class="text" id="UFItitle">User-Friendly<br>Interface</h3>
+                <div class="hoveredtext" id="hoveredUFI">
+                    <h3 class="hoveredtitle">User-Friendly Interface</h3>
+                    <p class="description">allows users to <span class="greenhighlight">discover and participate in relevant</span> <span class="greenhighlight">discussions</span> using filters, hashtags, and time durations</p>
+                    <img class="featureimage" src="images/UFI.png" alt="User-Friendly Interface">
+                </div>
+            </div>
+            <div id="DM" class="individual">
+                <h3 class="text" id="DMtitle">Direct<br>Messaging</h3>
+                <div class="hoveredtext" id="hoveredDM">
+                    <h3 class="hoveredtitle">Direct Messaging</h3>
+                    <p class="description">enables students of similar interests to <span class="orangehighlight">connect and</span> <span class="orangehighlight">communicate</span> as well as directly message professors</p>
+                    <img class="featureimage" src="images/DM.png" alt="Direct Messaging">
+                    <p class="replacesorange">Replaces: Email, messaging apps, Slack</p>
+                </div>
+            </div>
+            <div id="FS" class="rightindividual">
+                <h3 class="text" id="FStitle">Feedback<br>Surveys</h3>
+                <div class="hoveredtext" id="hoveredFS">
+                    <h3 class="hoveredtitle">Direct Messaging</h3>
+                    <p class="description">engages students with surveys throughout and at the end of the term to receive <span class="purplehighlight">insightful feedback</span></p>
+                    <img class="featureimage" src="images/FS.png" alt="Feedback Surveys">
+                </div>
+            </div>
+            <div id="ADAA" class="individual"><h3 class="text">Actionable<br>Analytics</h3></div>
+            <div id="ADRC" class="individual"><h3 class="text">Redundancy<br>Check</h3></div>
+            <div id="RTDAA" class="individual"><h3 class="text">Actionable<br>Analytics</h3></div>
+            <div id="RTDDM" class="individual"><h3 class="text">Direct<br>Messaging</h3></div>
+            <div id="GCAA" class="individual"><h3 class="text">Actionable<br>Analytics</h3></div>
+            <div id="GCRC" class="individual"><h3 class="text">Redundancy<br>Check</h3></div>
+            <div id="AAGC" class="individual"><h3 class="text">Group<br>Chats</h3></div>
+            <div id="AADM" class="individual"><h3 class="text">Direct<br>Messaging</h3></div>
+            <div id="RCFS" class="individual"><h3 class="text">Feedback<br>Surveys</h3></div>
+            <div id="UFIFS" class="individual"><h3 class="text">Feedback<br>Surveys</h3></div>
+            <div id="DMFS" class="individual"><h3 class="text">Feedback<br>Surveys</h3></div>
+            <div id="FSDM" class="individual"><h3 class="text">Direct<br>Messaging</h3></div>
+        </div>
     </body>
 </html>
